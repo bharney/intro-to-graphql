@@ -7,20 +7,20 @@ module.exports = {
     node: true
   },
   extends: [
-    'standard',
-    'prettier',
-    'prettier/standard',
+    // 'standard',
+    // 'prettier',
+    // 'prettier/standard',
     'plugin:jest/recommended'
   ],
   plugins: ['prettier', 'jest'],
   rules: {
-    'promise/catch-or-return': 'error',
-    'prettier/prettier': [
-      'error',
-      {
-        'singleQuote': true,
-        'semi': false
-      }
-    ]
+    // 'promise/catch-or-return': 'error',
+    // 'prettier/prettier': [
+    //   'error',
+    //   {
+    //     'singleQuote': false,
+    //     'semi': false
+    //   }
+    // ]
   }
 }

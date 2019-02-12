@@ -28,7 +28,7 @@ export const start = async () => {
     }
   })
 
-  await connect(config.dbUrl)
+  await connect(process.env.clientId, process.env.clientSecret, process.env.vaultUri)
   const { url } = await server.listen({ port: config.port })
 
   console.log(`GQL server ready at ${url}`)

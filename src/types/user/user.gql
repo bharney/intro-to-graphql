@@ -17,6 +17,7 @@ input NewUserInput {
 
 input UpdateUserInput {
   email: String
+  role: String
 }
 
 type Mutation {
